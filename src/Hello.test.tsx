@@ -11,8 +11,6 @@ describe('Hello Component', () => {
     const { getByText } = render(<Hello {...props} />);
     const title = getByText('Hello World');
     expect(title).toBeInTheDocument();
-    // expect(title.textContent).toEqual('Hello World');
-    // console.log({ title: title });
   });
 
   it('should render the name prop', () => {
@@ -23,6 +21,15 @@ describe('Hello Component', () => {
     const title = getByText('Hello Carlos');
 
     expect(title).toBeInTheDocument();
+  });
+
+  it('should has .Home classname', () => {
+    const props = {
+      name: '',
+    };
+    const { getByText } = render(<Hello {...props} />);
+    const title = getByText('Hello World');
+    expect(title).toHaveClass('Hello');
   });
 
   afterAll(cleanup);
