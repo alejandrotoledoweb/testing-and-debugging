@@ -6,8 +6,8 @@
   "scripts": {
     "build": "webpack",
     "start": "node ./dist/server",
-    "test": "jest --env=jsdom",
-    "test:coverage": "jest --coverage"
+    "test": "jest --env=jsdom --watch",
+    "test:coverage": "jest --coverage --env=jsdom"
   },
   "keywords": [],
   "author": "",

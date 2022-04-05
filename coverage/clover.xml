@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1649186147654" clover="3.2.0">
+  <project timestamp="1649186147654" name="All files">
+    <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1" elements="6" coveredelements="6" complexity="0" loc="3" ncloc="3" packages="1" files="1" classes="1"/>
+    <file name="Hello.tsx" path="/Users/alejandrotoledo/Documents/Study Books, projects and notes/React Deisgn Patterns and best practices/testing and debugging/src/Hello.tsx">
+      <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="11" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
