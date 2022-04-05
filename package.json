@@ -6,13 +6,23 @@
   "scripts": {
     "build": "webpack",
     "start": "node ./dist/server",
-    "test": "jest",
+    "test": "jest --env=jsdom",
     "test:coverage": "jest --coverage"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^27.5.1"
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   }
 }
